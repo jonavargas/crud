@@ -56,7 +56,7 @@ class MenusController extends AppController {
     /**
      * Eliminar un platillo seleccionado del menú
      */
-    public function del($id)
+    public function delete($id)
     {
         $menu = new Menus();
         if ($menu->delete((int)$id)) {

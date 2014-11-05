@@ -15,7 +15,7 @@
             <td ALIGN=center><?php echo $item->categoria ?></td>
             <td ALIGN=center><?php echo $item->precio ?></td>
             <td ALIGN=center><?php echo Html::linkAction("edit/$item->id/", 'Editar') ?></td>
-            <td ALIGN=center><?php echo Html::linkAction("del/$item->id/", 'Borrar') ?></td>
+            <td ALIGN=center><?php echo Html::linkAction("delete/$item->id/", 'Borrar') ?></td>
         </tr>
     <?php endforeach; ?>
 
